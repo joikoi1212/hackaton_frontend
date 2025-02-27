@@ -1,0 +1,55 @@
+{
+  "auth": {
+    "login_title": "Login",
+    "email_label": "E-mail",
+    "password_label": "Palavra-passe",
+    "login_button": "Entrar",
+    "recover_password": "Recuperar palavra-passe",
+    "no_account": "Ainda não tem conta?",
+    "register_here": "Registar-se",
+    "login_success": "Login efetuado com sucesso!",
+    "login_error": "Erro ao iniciar sessão. Tente novamente.",
+    "user_not_found": "E-mail ou palavra-passe incorretos. Tente novamente.",
+    "loading_auth": "A autenticar...",
+    "verifying": "A verificar ligação..."
+  },
+  "database": {
+    "db_online": "BD Online",
+    "db_offline": "BD Offline",
+    "db_offline_message": "A base de dados está indisponível. Tente mais tarde."
+  },
+  "server": {
+    "server_offline": "Erro de ligação ao servidor"
+  },
+  "recover": {
+    "title": "Recuperar palavra-passe",
+    "email_label": "E-mail",
+    "recover_button": "Recuperar",
+    "remember_password": "Lembrou-se da palavra-passe?",
+    "recover_success": "E-mail de recuperação enviado com sucesso!",
+    "recover_error": "Erro ao recuperar a palavra-passe."
+  },
+  "register": {
+    "title": "Criar conta",
+    "email_label": "E-mail",
+    "password_label": "Palavra-passe",
+    "confirm_password_label": "Confirmar palavra-passe",
+    "register_button": "Registar",
+    "account_exists": "Já tem conta?",
+    "password_mismatch": "As palavras-passe não coincidem!",
+    "register_success": "Conta criada com sucesso!",
+    "register_error": "Erro ao criar conta. Tente novamente."
+  },
+  "error": {
+    "page_not_found": "Página não encontrada",
+    "server_error": "Erro de ligação ao servidor",
+    "redirecting_auth": "A redirecionar para a autenticação..."
+  },
+  "welcome": {
+    "title": "Bem-vindo",
+    "session_expired": "Sessão expirada. A redirecionar..."
+  },
+  "button": {
+    "loading": "A verificar a sua sessão..."
+  }
+}
