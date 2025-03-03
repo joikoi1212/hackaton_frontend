@@ -2,7 +2,9 @@ module.exports = {
   reactStrictMode: true,
   experimental: {
     turbo: {
-      loaders: {},
+      rules: {
+        "*.mdx": ["mdx-loader"], // Updated from "loaders" to "rules"
+      },
     },
   },
 };
