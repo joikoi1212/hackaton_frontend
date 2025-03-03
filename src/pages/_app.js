@@ -1,14 +1,10 @@
 import "../styles/globals.css";
 
 export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
-
-export default function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Component {...pageProps} />
-      <ToastContainer
+   <Component {...pageProps} />;
+   <ToastContainer
         position="top-right"
         autoClose={5000}
         theme="dark"
@@ -23,3 +19,4 @@ export default function MyApp({ Component, pageProps }) {
     </>
   );
 }
+
