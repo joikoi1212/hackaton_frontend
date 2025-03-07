@@ -8,7 +8,7 @@ const WebSocketClient = () => {
   const [users, setUsers] = useState([]); // Lista de utilizadores conectados
   const [isConnected, setIsConnected] = useState(false); // Define se o utilizador está conectado
   const ws = useRef(null);
-  const WS_URL = "https://railwaywebsocket-production.up.railway.app/api/server";
+  const WS_URL = "wss://railwaywebsocket-production.up.railway.app:8080";
 
   const connectToServer = () => {
     console.log(isConnected);
