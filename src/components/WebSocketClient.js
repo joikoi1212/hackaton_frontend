@@ -8,7 +8,8 @@ const WebSocketClient = () => {
   const [users, setUsers] = useState([]); // Lista de utilizadores conectados
   const [isConnected, setIsConnected] = useState(false); // Define se o utilizador está conectado
   const ws = useRef(null);
-  const WS_URL = process.env.WSS_URL; // Alterar para URL do WebSocket no Vercel do Railway
+  const WS_URL = "wss://railwaywebsocket-production.up.railway.app";
+
 
   const connectToServer = () => {
     if (!isConnected) {
