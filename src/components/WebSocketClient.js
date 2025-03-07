@@ -10,8 +10,10 @@ const WebSocketClient = () => {
   const ws = useRef(null);
   const WS_URL = "wss://railwaywebsocket-production.up.railway.app/api/server";
 
+  
 
   const connectToServer = () => {
+    console.log(isConnected);
     if (!isConnected) {
       ws.current = new WebSocket(WS_URL);
 
